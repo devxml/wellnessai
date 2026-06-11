@@ -1,0 +1,106 @@
+[
+  {
+    "ingredient": "Ketoconazole",
+    "benefits": ["anti-fungal", "treats dandruff", "reduces scalp inflammation"],
+    "suitable_for_scalp": ["dandruff_prone", "oily"],
+    "concerns_addressed": ["dandruff"],
+    "product_type": "shampoo",
+    "india_brands": ["Nizoral Anti-Dandruff Shampoo", "Selsun Blue", "Head & Shoulders Clinical"],
+    "price_range_inr": "200-500",
+    "hair_porosity": ["low", "medium", "high"]
+  },
+  {
+    "ingredient": "Zinc Pyrithione",
+    "benefits": ["controls dandruff", "anti-bacterial", "reduces flaking"],
+    "suitable_for_scalp": ["dandruff_prone", "oily"],
+    "concerns_addressed": ["dandruff"],
+    "product_type": "shampoo",
+    "india_brands": ["Head & Shoulders", "Clinic Plus Anti-Dandruff"],
+    "price_range_inr": "150-400",
+    "hair_porosity": ["low", "medium", "high"]
+  },
+  {
+    "ingredient": "Biotin",
+    "benefits": ["strengthens hair", "promotes growth", "reduces breakage"],
+    "suitable_for_scalp": ["oily", "dry", "normal", "sensitive"],
+    "concerns_addressed": ["hair_fall", "slow_growth"],
+    "product_type": "serum/supplement",
+    "india_brands": ["Mamaearth Biotin Hair Serum", "Wow Biotin Shampoo", "UrbanBotanics Biotin"],
+    "price_range_inr": "300-800",
+    "hair_porosity": ["low", "medium", "high"]
+  },
+  {
+    "ingredient": "Redensyl",
+    "benefits": ["clinically proven hair growth", "reactivates dormant follicles"],
+    "suitable_for_scalp": ["oily", "dry", "normal"],
+    "concerns_addressed": ["hair_fall", "slow_growth"],
+    "product_type": "serum",
+    "india_brands": ["Minimalist 18% Hair Growth Actives", "Traya Hair Ras", "Pilgrim Redensyl Serum"],
+    "price_range_inr": "500-1000",
+    "hair_porosity": ["low", "medium", "high"]
+  },
+  {
+    "ingredient": "Peptides (Procapil/Anagain)",
+    "benefits": ["strengthens follicles", "reduces hair fall", "improves density"],
+    "suitable_for_scalp": ["all"],
+    "concerns_addressed": ["hair_fall", "slow_growth"],
+    "product_type": "serum",
+    "india_brands": ["Minimalist 5% Caffeine + EGCG", "Derma Co Hair Serum"],
+    "price_range_inr": "400-900",
+    "hair_porosity": ["low", "medium", "high"]
+  },
+  {
+    "ingredient": "Coconut Oil",
+    "benefits": ["deep conditioning", "reduces protein loss", "scalp moisturiser", "anti-fungal"],
+    "suitable_for_scalp": ["dry", "normal", "dandruff_prone"],
+    "concerns_addressed": ["dryness", "hair_fall", "dandruff", "frizz"],
+    "product_type": "pre-wash oil",
+    "india_brands": ["Parachute Coconut Oil", "Soulflower Coconut Oil", "KLF Coconad Pure Coconut Oil"],
+    "price_range_inr": "100-400",
+    "hair_porosity": ["medium", "high"],
+    "avoid_for_porosity": ["low"]
+  },
+  {
+    "ingredient": "Castor Oil",
+    "benefits": ["promotes growth", "thickens hair", "moisturises scalp"],
+    "suitable_for_scalp": ["dry", "normal"],
+    "concerns_addressed": ["slow_growth", "dryness", "hair_fall"],
+    "product_type": "pre-wash oil",
+    "india_brands": ["Soulflower Cold Pressed Castor Oil", "WOW Castor Oil", "Khadi Natural Castor Oil"],
+    "price_range_inr": "200-500",
+    "hair_porosity": ["medium", "high"]
+  },
+  {
+    "ingredient": "Amla (Indian Gooseberry)",
+    "benefits": ["strengthens hair", "prevents greying", "scalp health", "shine"],
+    "suitable_for_scalp": ["oily", "dry", "normal", "dandruff_prone"],
+    "concerns_addressed": ["hair_fall", "slow_growth", "dullness"],
+    "product_type": "oil/rinse/DIY",
+    "india_brands": ["Dabur Amla Oil", "Emami Amla Hair Oil", "Soulflower Amla Oil"],
+    "price_range_inr": "80-300",
+    "hair_porosity": ["low", "medium", "high"],
+    "diy": "Mix amla powder with curd for a hair mask, leave 30 min before washing"
+  },
+  {
+    "ingredient": "Protein Treatment (Keratin/Hydrolyzed Protein)",
+    "benefits": ["repairs damage", "reduces breakage", "smooths frizz", "strengthens shaft"],
+    "suitable_for_scalp": ["dry", "normal", "sensitive"],
+    "concerns_addressed": ["split_ends", "frizz", "color_damaged", "heat_damaged", "breakage"],
+    "product_type": "hair mask/conditioner",
+    "india_brands": ["Mamaearth Keratin Shampoo", "Tresemme Keratin Smooth", "Schwarzkopf Bonacure Repair Rescue"],
+    "price_range_inr": "300-800",
+    "hair_porosity": ["high"],
+    "avoid_for_porosity": ["low"]
+  },
+  {
+    "ingredient": "Fenugreek (Methi)",
+    "benefits": ["treats dandruff", "reduces hair fall", "conditions hair", "scalp soothing"],
+    "suitable_for_scalp": ["oily", "dry", "dandruff_prone"],
+    "concerns_addressed": ["dandruff", "hair_fall"],
+    "product_type": "DIY mask",
+    "india_brands": [],
+    "price_range_inr": "20-50",
+    "hair_porosity": ["low", "medium", "high"],
+    "diy": "Soak methi seeds overnight, grind to paste, apply to scalp for 30 min before washing"
+  }
+]

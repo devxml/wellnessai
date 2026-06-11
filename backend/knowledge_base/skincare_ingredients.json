@@ -1,0 +1,122 @@
+[
+  {
+    "ingredient": "Niacinamide",
+    "percentage": "5-10%",
+    "benefits": ["reduces pores", "controls oil", "brightening", "reduces pigmentation", "strengthens barrier"],
+    "suitable_for": ["oily", "combination", "normal", "sensitive"],
+    "concerns_addressed": ["pigmentation", "dull_skin", "large_pores", "uneven_tone", "acne"],
+    "product_type": "serum",
+    "when_to_use": "AM and PM",
+    "avoid_combining_with": [],
+    "india_brands": ["Minimalist 10% Niacinamide", "Plum 10% Niacinamide", "Derma Co 10% Niacinamide"],
+    "price_range_inr": "300-600"
+  },
+  {
+    "ingredient": "Vitamin C (Ascorbic Acid)",
+    "percentage": "10-20%",
+    "benefits": ["brightening", "antioxidant", "collagen boost", "reduces dark spots"],
+    "suitable_for": ["normal", "dry", "combination"],
+    "concerns_addressed": ["pigmentation", "dark_spots", "dull_skin", "anti_aging"],
+    "product_type": "serum",
+    "when_to_use": "AM",
+    "avoid_combining_with": ["Retinol (same time)", "Benzoyl Peroxide"],
+    "india_brands": ["Minimalist 10% Vitamin C", "Mamaearth Vitamin C Serum", "Dot & Key Vitamin C Serum", "COSRX Vitamin C"],
+    "price_range_inr": "400-900"
+  },
+  {
+    "ingredient": "Retinol",
+    "percentage": "0.025-1%",
+    "benefits": ["anti-aging", "cell turnover", "reduces fine lines", "treats acne"],
+    "suitable_for": ["normal", "oily", "combination"],
+    "concerns_addressed": ["anti_aging", "acne", "dark_spots", "dull_skin"],
+    "product_type": "serum",
+    "when_to_use": "PM only",
+    "avoid_combining_with": ["AHA/BHA (same night)", "Vitamin C (same time)", "Benzoyl Peroxide"],
+    "india_brands": ["Minimalist 0.3% Retinol", "Derma Co 0.1% Retinol", "Re'equil Retinol"],
+    "price_range_inr": "500-900"
+  },
+  {
+    "ingredient": "Salicylic Acid (BHA)",
+    "percentage": "0.5-2%",
+    "benefits": ["unclogs pores", "anti-acne", "exfoliates", "controls oil"],
+    "suitable_for": ["oily", "combination"],
+    "concerns_addressed": ["acne", "large_pores", "blackheads"],
+    "product_type": "cleanser/serum/toner",
+    "when_to_use": "PM (or alternate nights)",
+    "avoid_combining_with": ["Retinol (same night)", "AHA (same step)"],
+    "india_brands": ["Minimalist 2% Salicylic Acid", "Plum Green Tea Face Wash", "Mamaearth Tea Tree Face Wash", "Neutrogena Oil-Free Acne Wash"],
+    "price_range_inr": "200-600"
+  },
+  {
+    "ingredient": "AHA (Glycolic/Lactic Acid)",
+    "percentage": "5-10%",
+    "benefits": ["chemical exfoliation", "brightening", "smoothing texture", "anti-aging"],
+    "suitable_for": ["normal", "dry", "combination"],
+    "concerns_addressed": ["dull_skin", "pigmentation", "uneven_tone", "dark_spots"],
+    "product_type": "toner/serum",
+    "when_to_use": "PM (2-3x per week)",
+    "avoid_combining_with": ["Retinol (same night)", "Vitamin C (same step)", "BHA (same step)"],
+    "india_brands": ["Minimalist 10% AHA + 0.1% HA", "The Ordinary Glycolic Acid 7%", "Plum 15% AHA + 1% BHA"],
+    "price_range_inr": "400-800"
+  },
+  {
+    "ingredient": "Hyaluronic Acid",
+    "percentage": "1-2%",
+    "benefits": ["deep hydration", "plumping", "barrier support"],
+    "suitable_for": ["oily", "dry", "combination", "sensitive", "normal"],
+    "concerns_addressed": ["dull_skin", "dry", "anti_aging"],
+    "product_type": "serum/moisturiser",
+    "when_to_use": "AM and PM",
+    "avoid_combining_with": [],
+    "india_brands": ["Minimalist 2% Hyaluronic Acid", "Neutrogena Hydro Boost", "Lakme Hydra Pro"],
+    "price_range_inr": "300-700"
+  },
+  {
+    "ingredient": "SPF (Sunscreen)",
+    "percentage": "SPF 30-50",
+    "benefits": ["UV protection", "prevents pigmentation", "anti-aging"],
+    "suitable_for": ["oily", "dry", "combination", "sensitive", "normal"],
+    "concerns_addressed": ["pigmentation", "dark_spots", "anti_aging"],
+    "product_type": "sunscreen",
+    "when_to_use": "AM (last step)",
+    "avoid_combining_with": [],
+    "india_brands": ["Dot & Key SPF 50 Sunscreen", "Re'equil SPF 50", "Minimalist SPF 50", "Neutrogena Ultra Sheer SPF 50+"],
+    "price_range_inr": "300-900"
+  },
+  {
+    "ingredient": "Kojic Acid",
+    "percentage": "1-4%",
+    "benefits": ["depigmentation", "brightening", "reduces melanin"],
+    "suitable_for": ["normal", "dry", "combination"],
+    "concerns_addressed": ["pigmentation", "dark_spots", "uneven_tone"],
+    "product_type": "serum/cream",
+    "when_to_use": "PM",
+    "avoid_combining_with": ["AHA (same step)"],
+    "india_brands": ["Minimalist Kojic Acid 2%", "Mamaearth Bye Bye Blemishes", "Derma Co Kojic Acid"],
+    "price_range_inr": "400-700"
+  },
+  {
+    "ingredient": "Ceramides",
+    "percentage": "varies",
+    "benefits": ["barrier repair", "hydration", "reduces sensitivity", "anti-aging"],
+    "suitable_for": ["sensitive", "dry", "combination", "normal"],
+    "concerns_addressed": ["redness", "dryness", "sensitivity"],
+    "product_type": "moisturiser",
+    "when_to_use": "AM and PM",
+    "avoid_combining_with": [],
+    "india_brands": ["CeraVe Moisturising Cream", "Minimalist Multi-Peptide + HA", "La Roche-Posay Cicaplast"],
+    "price_range_inr": "600-1500"
+  },
+  {
+    "ingredient": "Tea Tree Oil",
+    "percentage": "0.5-5%",
+    "benefits": ["antibacterial", "anti-acne", "soothes inflammation"],
+    "suitable_for": ["oily", "combination"],
+    "concerns_addressed": ["acne", "blackheads"],
+    "product_type": "spot treatment/cleanser",
+    "when_to_use": "PM",
+    "avoid_combining_with": ["Retinol (same area)"],
+    "india_brands": ["Plum Tea Tree Face Wash", "Mamaearth Tea Tree Serum", "WOW Tea Tree Oil"],
+    "price_range_inr": "200-500"
+  }
+]

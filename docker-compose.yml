@@ -1,0 +1,54 @@
+version: '3.9'
+
+services:
+  # ─── Backend ───────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+      - chroma_data:/app/chroma_db
+    depends_on:
+      - mongo
+    restart: unless-stopped
+    networks:
+      - wellness
+
+  # ─── Frontend ──────────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - wellness
+
+  # ─── MongoDB ───────────────────────────────────────────────────────────
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    networks:
+      - wellness
+
+volumes:
+  mongo_data:
+  chroma_data:
+
+networks:
+  wellness:
+    driver: bridge

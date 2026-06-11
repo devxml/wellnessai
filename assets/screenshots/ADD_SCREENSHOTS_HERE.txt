@@ -1,0 +1,17 @@
+SCREENSHOTS — ADD YOUR OWN HERE
+================================
+
+After running the project locally, take screenshots and save them here:
+
+  dashboard.png         → http://localhost:3000 (landing page with 3 planner cards)
+  diet-planner.png      → http://localhost:3000/diet (after filling the quiz, the generated plan)
+  skincare-planner.png  → http://localhost:3000/skincare (the AM/PM routine result)
+  haircare-planner.png  → http://localhost:3000/haircare (the haircare routine result)
+
+How to take a good screenshot:
+  - Use a full browser window (not zoomed in)
+  - On Windows: Win + Shift + S  →  select area  →  paste into Paint  →  save as PNG
+  - On Mac: Cmd + Shift + 4  →  select area  →  auto-saved to Desktop
+
+Recommended tool for polished screenshots:
+  https://www.screely.com  (adds a browser frame + shadow — looks great on GitHub READMEs)
